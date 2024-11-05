@@ -1,0 +1,44 @@
+/* DCFB - G - 'DDC-FB (Disconnect-Facebook - Gagovernment!)
+(Display, Dimension, Color, Font, Borders, Governing) 
+Governing: Specificity, Inheritance, Rule Order */
+
+*{
+    font-family: Garamond, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+::marker{
+    font-size: 25px;
+}
+h1{
+    width: 500px;
+    height: auto;
+    background-color: lightskyblue;
+    color: rgb(22, 41, 38);
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    border: 30px double rgb(148, 121, 121);
+    font-family: 'Lucida Sans';
+}
+ul{
+    height: 300px;
+    width: 600px;
+    padding:30px;
+    text-align: center;
+    margin:auto;
+    margin-top: 35px;
+    background-color: rgb(241, 241, 138);
+    display:grid;
+}
+li{
+    background-color: rgb(255, 235, 205, 50%);
+    margin: 20px;
+    border: 3px solid black;
+}
+.bullet a{
+    display: inline-block;
+    font-family: Arial;
+    background-color: rgb(191, 240, 191);
+    vertical-align: middle;
+}
